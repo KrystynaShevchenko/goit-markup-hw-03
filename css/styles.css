@@ -52,7 +52,7 @@ address {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
-  border-bottom: 1px #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -327,8 +327,8 @@ address {
 
 .footer {
   background: #2e2f42;
-  padding-top: 101.5px;
-  padding-bottom: 189.5px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -338,7 +338,8 @@ address {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 17.5px;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 .footer-logo-span {
   font-family: "Raleway", sans-serif;
