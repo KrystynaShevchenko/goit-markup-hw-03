@@ -307,16 +307,24 @@ address {
 .portfolio-menu-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px 48px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-menu-item {
-  width: calc((100% - 48px * 2) / 3);
+  width: calc((100% - 2 * 24px) / 3);
   border-radius: 0px 0px 4px 4px;
 }
 .portfolio-menu-img {
   margin-bottom: 32px;
 }
+
+.portfolio-menu-name {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
 .portfolio-menu-subtitle {
   color: #2e2f42;
   font-size: 20px;
